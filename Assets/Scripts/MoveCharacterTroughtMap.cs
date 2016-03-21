@@ -9,13 +9,20 @@ public class MoveCharacterTroughtMap : MonoBehaviour {
 	private int currentLevel = 0;
 	// The speed for move to level A to level B
 	private float speed = 90f;
+	// The lenght of step to translate the gameobject
+	private float step = 0;
 
 	void Start () {
 		
 	}
 
 	void Update () {
-		float step = speed * Time.deltaTime;
+		moveCharacter();
+	}
+
+	// The function of this method is update the character's position in the diferents levels of the map
+	private void moveCharacter(){
+		step = speed * Time.deltaTime;
 		if(levels.Length > 0){
 			transform.position = Vector3.MoveTowards(transform.position, levels[currentLevel].transform.position, step);
 		}
