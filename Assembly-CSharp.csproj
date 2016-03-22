@@ -38,59 +38,46 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-<<<<<<< HEAD
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera\ThirdPersonCamera.cs" />
-     <Compile Include="Assets\Scripts\Player\Jump.cs" />
-     <Compile Include="Assets\Scripts\Player\Move.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Cecil">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-=======
-	  <HintPath>D:/Programas/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
-	</Reference>
-	<Reference Include="UnityEditor">
-	  <HintPath>D:/Programas/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-	</Reference>
-  </ItemGroup>
-  <ItemGroup>
+     <Compile Include="Assets\Scripts\CharacterSelector.cs" />
      <Compile Include="Assets\Scripts\ControlHUD_SelectLevel.cs" />
      <Compile Include="Assets\Scripts\HoldButton.cs" />
-     <Compile Include="Assets\Scripts\Jump.cs" />
      <Compile Include="Assets\Scripts\LevelOnMap.cs" />
      <Compile Include="Assets\Scripts\MoveCharacterTroughtMap.cs" />
+     <Compile Include="Assets\Scripts\Player\Jump.cs" />
+     <Compile Include="Assets\Scripts\Player\Move.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleDrag.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleInfo.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleMove.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleOrthographicZoom.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleRotateScale.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleRotateScaleRelative.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleSnapshots.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleSplitScreen.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleSwipe.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleSwipeDirection.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleTap.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Examples\SimpleZoom.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Scripts\LeanFinger.cs" />
+     <Compile Include="Assets\UtilAssets\LeanTouch\Scripts\LeanTouch.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Programas/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Programas/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
- <HintPath>D:/Programas/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>D:/Programas/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
->>>>>>> origin/master
+ <HintPath>D:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
