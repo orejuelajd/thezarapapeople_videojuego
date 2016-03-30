@@ -48,10 +48,12 @@ public class CharacterSelector : MonoBehaviour {
 				if (hit.collider.gameObject.name == "Player1")
 				{
 					charNameText.text = charName + "Zarapa Boy";
+					PlayerPrefs.SetString("gender","man");
 				}
 				// The collider is the player2 zarapa girl
 				else if(hit.collider.gameObject.name == "Player2"){
 					charNameText.text = charName + "Zarapa Girl";
+					PlayerPrefs.SetString("gender","woman");
 				}
 			}		
 		}
