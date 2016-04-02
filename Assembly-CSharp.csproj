@@ -88,17 +88,11 @@
      <None Include="Assets\UtilAssets\DOTween\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\UtilAssets\DOTween\Demigiant\DOTween\DOTween43.xml" />
      <None Include="Assets\UtilAssets\DOTween\Demigiant\DOTween\DOTween50.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
  <HintPath>D:/Repositorio/thezarapapeople_videojuego/Assets/UtilAssets/DOTween/Demigiant/DOTween/DOTween.dll</HintPath>
