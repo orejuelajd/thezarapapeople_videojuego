@@ -13,6 +13,6 @@ Requiere tener permisos de acceso.
 
 https://drive.google.com/drive/folders/0By7HKz2WbjmCNGI0ZzV0cHB0Tms
 
-Universidad Autonoma de Occidente
+Universidad Autónoma de Occidente
 
 Copyright 2016
