@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class Move : MonoBehaviour {
-	
+
+	public float multiplier = 0.0f;
 	// Use this for initialization
 	void Start () {
 		
@@ -11,8 +12,6 @@ public class Move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		transform.Translate (Input.GetAxis("Horizontal"),0f,0f);
-		transform.Translate (0f,0f,Input.GetAxis("Vertical"));
+		transform.Translate (Input.GetAxis("Horizontal") * multiplier,0f,Input.GetAxis("Vertical") * multiplier);
 	}
 }
