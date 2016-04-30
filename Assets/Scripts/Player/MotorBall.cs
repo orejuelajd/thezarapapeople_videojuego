@@ -3,9 +3,9 @@ using System.Collections;
 
 public class MotorBall : MonoBehaviour {
 
-    public float moveSpeed = 5.0f;
-    public float drag = 0.5f;
-    public float terminalRotacionSpeed = 25.0f;
+    public float moveSpeed = 0.0f;
+    public float drag = 0.0f;
+    public float terminalRotacionSpeed = 0.0f;
     public Vector3 moveVector { set; get;}
     public VirtualJoystick joystick;
    
@@ -13,19 +13,21 @@ public class MotorBall : MonoBehaviour {
     private Rigidbody thisRigidBody;
 
     void Start () {
-        thisRigidBody = gameObject.AddComponent<Rigidbody>();
-        thisRigidBody.maxAngularVelocity = terminalRotacionSpeed;
+        thisRigidBody = gameObject.GetComponent<Rigidbody>();
         thisRigidBody.drag = drag;
 	}
 	
 	
 	void Update () {
-        moveVector = poolInput();
-        move();
+		moveVector = poolInput();
+		move();
 	}
 
-    private void move()
-    {
+	void FixedUpdate(){
+
+	}
+
+    private void move(){
         thisRigidBody.AddForce((moveVector * moveSpeed));
     }
 
